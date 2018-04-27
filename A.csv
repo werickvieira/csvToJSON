@@ -1,0 +1,114 @@
+ID;JOGADOR;SELECAO;ABREVIATURA SELECAO;COPA DO PENTEADO;COPAS QUE JOGOU;POSIÇÃO;IMAGEM;CARACTERISTICA
+1;Carlos Valderrama;Colômbia;COL;Cabelo em 1994;1990, 1994 e 1998;Meia;jogadores/valderrama_colombia;cabelo comprido, bigode
+2;Alexi Lalas;Estados Unidos;EUA;Cabelo em 1994;1994;Defensor;jogadores/lalas_eua;cabelo comprido, bigode, barba
+3;Taribot West;Nigéria;NIG;Cabelo em 1998;1998, 2002;Defensor;jogadores/taribot_nigeria;cabelo curto, careca
+4;Jorge Perlaza;Equador;EQU;Cabelo em 2006;2006;Defensor;jogadores/perlaza_equador;cabelo comprido
+5;Ronaldo;Brasil;BRA;Cabelo em 2002;1994, 1998, 2002 e 2006;Atacante;jogadores/ronaldo_brasil;cabelo curto, careca
+6;Roberto Baggio;Itália;ITA;Cabelo em 1994;1994, 1998 e 2002;Meia;jogadores/baggio_italia;cabelo comprido, bigode, barba
+7;Bob Charlton;Inglaterra;ING;Cabelo em 1966;1962, 1966 e 1970;Meia;jogadores/charlton_inglaterra;cabelo curto
+8;Rudi Voeller;Alemanha;ALE;Cabelo em 1990;1986, 1990 e 1994;Atacante;jogadores/voller_alemanha;cabelo comprido, bigode
+9;Rene Higuita;Colômbia;COL;Cabelo em 1990;1990;Goleiro;jogadores/higuita_colombia;cabelo comprido, bigode
+10;Ruud Gullit;Holanda;HOL;Cabelo em 1990;1990;Meia;jogadores/Gullit_holanda;cabelo comprido, bigode
+11;Yordan Lechkov;Bulgária;BUL;Cabelo em 1994;1994;Meia;jogadores/lechkov_bulgaria;careca, cabelo curto
+12;Eusébio;Portugal;POR;Cabelo em 1966;1966;Atacante;jogadores/eusebio_portugal;cabelo curto
+13;Johannes Cruyf;Holanda;HOL;Cabelo em 1974;1974;Atacante;jogadores/cruyf_holanda;cabelo comprido
+14;Leônidas da Silva;Brasil;BRA;Cabelo em 1938;1934 e 1938;Atacante;jogadores/leonidas_brasil;cabelo curto, bigode
+15;Paolo Rossi;Itália;ITA;Cabelo em 1982;1978, 1982 e 1986;Atacante;jogadores/rossi_italia;cabelo comprido
+16;Lothar Matthäus;Alemanha;ALE;Cabelo em 1990;1982, 1986, 1990, 1994 e 1998;Meia;jogadores/matthaus_alemanha;cabelo curto
+17;Romário;Brasil;BRA;Cabelo em 1994;1990 e 1994;Atacante;jogadores/romario_brasil;cabelo curto
+18;Zinedine Zidane;França;FRA;Cabelo em 1998;1998 e 2002;Meia;jogadores/zidane_franca;cabelo curto
+19;	Franz Beckenbauer;Alemanha;ALE;Cabelo em 1974;1966, 1970 e 1974;Defensor;jogadores/Beckenbauer_alemanha;cabelo comprido
+20;Jaap Stam;Holanda;HOL;Cabelo em 1998;1998;Defensor;jogadores/stam_holanda;careca, bigode
+21;	Paul Breitner;Alemanha;ALE;Cabelo em 1974;1974 e 1982;Meia;jogadores/breitener_alemanha;cabelo comprido, bigode, barba
+22;Jürgen Klinsmann;Alemanha;ALE;Cabelo em 1990;1990, 1994 e 1998;Atacante;jogadores/klismann_alemanha;cabelo comprido
+23;Sepp Maier;Alemanha;ALE;Cabelo em 1974;1966, 1970, 1974 e 1978;Goleiro;jogadores/sepp_alemanha;cabelo comprido
+24;Diego Maradona;Argentina;ARG;Cabelo em  1986;1982, 1986, 1990 e 1994;Meia;jogadores/maradona_argentina;cabelo comprido
+25;Claudio Caniggia;Argentina;ARG;Cabelo em  1990;1990, 1994 e 2002;Atacante;jogadores/caniggia_argentina;cabelo comprido
+26;Mario Kempes;Argentina;ARG;Cabelo em  1978;1974, 1978 e 1982;Atacante;jogadores/kempes_argentina;cabelo comprido
+27;Preud´Homme;Bélgica;BEL;Cabelo em  1990;1990 e 1994;Goleiro;jogadores/preudhomme_belgica;cabelo comprido
+28;Sócrates;Brasil;BRA;Cabelo em  1982;1982 e 1986;Meia;jogadores/socrates_brasil;cabelo comprido, bigode, barba
+29;Zico;Brasil;BRA;Cabelo em  1982;1978, 1982 e 1986;Meia;jogadores/zico_brasil;cabelo comprido
+30;Cláudio Taffarel;Brasil;BRA;Cabelo em  1994;1990, 1994 e 1998;Goleiro;jogadores/taffarel_brasil;cabelo curto
+31;Hristo Stoitchkov;Bulgária;BUL;Cabelo em  1994;1994 e 1998;Meia;jogadores/stoitchkov_bulgaria;cabelo curto
+32;Roger Milla;Camarões;CMR;Cabelo em  1990;1982, 1990 e 1994;Atacante;jogadores/milla_camaroes;cabelo curto, bigode
+33;Marcelo Salas;Chile;CHI;Cabelo em  1998;1998;Atacante;jogadores/salas_chile;cabelo comprido
+34;Iván Zamorano;Chile;CHI;Cabelo em  1998;1998;Atacante;jogadores/zamorano_chile;cabelo comprido
+35;Davor Suker;Croácia;CRO;Cabelo em  1998;1990, 1998 e 2002;Atacante;jogadores/suker_croacia;cabelo curto
+36;Peter Schmeichel;Dinamarca;DIN;Cabelo em  1998;1998;Goleiro;jogadores/schmeichel_dinamarca;cabelo curto
+37;Michael Laudrup;Dinamarca;DIN;Cabelo em  1998;1986 e 1998;Meia;jogadores/michael_dinamarca;cabelo curto
+38;Brian Laudrup;Dinamarca;DIN;Cabelo em  1998;1998;Atacante;jogadores/brian_dinamarca;cabelo curto
+38;Emilio Butragueño;Espanha;ESP;Cabelo em  1986;1986 e 1990;Atacante;jogadores/butragueno_espanha;cabelo curto
+40;Carles Puyol;Espanha;ESP;Cabelo em  2010;2010;Defensor;jogadores/puyol_espanha;cabelo comprido
+41;Sergio Ramos;Espanha;ESP;Cabelo em  2010;2006 e 2010;Defensor;jogadores/ramos_espanha;cabelo comprido
+42;Michel Platini;França;FRA;Cabelo em  1986;1978, 1982 e 1986;Meia;jogadores/platini_franca;cabelo comprido
+43;Franklin Rijkaard;Holanda;HOL;Cabelo em  1994;1990 e 1994;Meia;jogadores/Rijkaard_holanda;cabelo curto
+44;Dennis Bergkamp;Holanda;HOL;Cabelo em  1998;1994 e 1998;Atacante;jogadores/bergkamp_holanda;cabelo curto
+45;Pelé;Brasil;BRA;Cabelo em  1970;1958, 1962, 1966 e 1970;Meia;jogadores/pele_brasil;cabelo curto
+46;David Beckham;Inglaterra;ING;Cabelo em  2002;1998 e 2002;Meia;jogadores/beckham_inglaterra;cabelo curto
+47;Paolo Maldini;Itália;ITA;Cabelo em  1998;1990, 1994, 1998 e 2002;Defensor;jogadores/maldini_italia;cabelo comprido
+48;Ferenc Puskas;Hungria;HUN;Cabelo em  1954;1954 e 1962;Atacante;jogadores/puskas_hungria;cabelo curto
+49;Hugo Sánchez;México;MEX;Cabelo em  1986;1978, 1986 e 1994;Atacante;jogadores/sanchez_mexico;cabelo comprido
+50;Andrés Iniesta;Espanha;ESP;Cabelo em  2010;2006, 2010 e 2014;Meia;jogadores/iniesta_espanha;cabelo curto, careca
+51;Dunga;Brasil;BRA;Cabelo em  1994;1990, 1994 e 1998;Meia;jogadores/dunga_brasil;cabelo curto
+52;Chilavert;Paraguai;PAR;Cabelo em  2002;1998 e 2002;Goleiro;jogadores/chilavert_paraguai;cabelo curto, careca
+53;Teófilo Cubillas;Peru;PER;Cabelo em  1970;1970, 1978 e 1982;Meia;jogadores/cubillas_peru;cabelo curto
+54;Lato;Polônia;POL;Cabelo em  1974;1974, 1978 e 1982;Meia;jogadores/lato_polonia;cabelo curto, careca
+55;Figo;Portugal;POR;Cabelo em  2002;2002;Meia;jogadores/figo_portugal;cabelo comprido
+56;Cristiano Ronaldo;Portugal;POR;Cabelo em  2014;2006, 2010 e 2014;Atacante;jogadores/ronaldo_portugal;cabelo curto
+57;Gheorghe Hagi;Romênia;ROM;Cabelo em 1986;1990, 1994 e 1998;Meia;jogadores/hagi_romenia;cabelo curto
+58;Thomas Ravelli;Suécia;SUE;Cabelo em 1994;1990 e 1994;Goleiro;jogadores/ravelli_suecia;cabelo curto
+59;Enzo Francescoli ;Uruguai;URU;Cabelo em 1990;1986 e 1990;Atacante;jogadores/francescoli_uruguai;cabelo curto
+60;David Luiz;Brasil;BRA;Cabelo em 2014;2014;Defensor;jogadores/david_brasil;cabelo comprido
+61;Neymar;Brasil;BRA;Cabelo em 2014;2014;Atacante;jogadores/neymar_brasil;cabelo curto
+62;Tim Howard;EUA;EUA;Cabelo em 2014;2010 e 2014;Goleiro;jogadores/howard_eua;careca, barba, bigode
+63;Asamoah Gyan;Gana;GAN;Cabelo em 2014;2006, 2010 e 2014;Atacante;jogadores/asamoah_gana;cabelo curto
+64;Marcelo;Brasil;BRA;Cabelo em 2014;2014;Defensor;jogadores/marcelo_brasil;cabelo comprido
+65;Oliver Giraud;França;FRA;Cabelo em 2014;2014;Atacante;jogadores/giroud_franca;cabelo curto
+66;Keisuke Honda;Japão;JAP;Cabelo em 2014;2010 e 2014;Meia;jogadores/honda_japao;cabelo curto
+67;Mario Balotelli ;Itália;ITA;Cabelo em 2014;2014;Atacante;jogadores/balotelli_italia;cabelo curto, careca
+68;Guillermo Ochoa;México;MEX;Cabelo em 2014;2010 e 2014;Goleiro;jogadores/ochoa_mexico;cabelo comprido
+69;Kyle Beckerman;EUA;EUA;Cabelo em 2014;2014;Meia;jogadores/kyle_eua;cabelo comprido, bigode, barba
+70;Marouane Fellaini;Bélgica;BEL;Cabelo em 2014;2014;Meia;jogadores/fellaine_belgica;cabelo comprido
+71;Sulley Muntari ;Gana;GAN;Cabelo em 2014;2006, 2010 e 2014;Meia;jogadores/mutari_gana;cabelo curto
+72;Arturo Vidal;Chile;CHI;Cabelo em 2014;2010 e 2014;Atacante;jogadores/vidal_chile;cabelo curto, careca
+73;Edson Cavani;Uruguai;URU;Cabelo em 2014;2010 e 2014;Atacante;jogadores/cavani_uruguai;cabelo comprido
+74;Andrea Pirlo;Italia;ITA;Cabelo em 2014;2006, 2010 e 2014;Meia;jogadores/pirlo_italia;cabelo comprido, bigode, barba
+75;Clarence Seedorf;Holanda;HOL;Cabelo em 1998;1998;Meia;jogadores/seedorf_holanda;cabelo comprido
+76;Edgar Davids;Holanda;HOL;Cabelo em 1998;1998;Meia;jogadores/davids_holanda;cabelo comprido
+77;Rio Ferdinand;Inglaterra;ING;Cabelo em 2006;1998, 2002 e 2006;Defensor;jogadores/ferdinand_inglaterra;cabelo comprido
+78;Ronaldinho;Brasil;BRA;Cabelo em 2006;2002 e 2006;Meia;jogadores/ronaldinho_brasil;cabelo comprido
+79;Juan Cuadrado;Colômbia;COL;Cabelo em2014;2014;Defensor;jogadores/cuadrado_colombia;cabelo comprido
+80;Didier Drogba;Costa do Marfim;CIV;Cabelo em 2010;2006, 2010 e 2014;Atacante;jogadores/drogba_costa;cabelo comprido
+81;Gervinho;Costa do Marfim;CIV;Cabelo em 2014;2010 e 2014;Atacante;jogadores/gervinho_costa;cabelo comprido, barba
+82;David Seaman;Inglaterra;ING;Cabelo em 2002;1998 e 2002;Goleiro;jogadores/seaman_inglaterra;cabelo comprido, bigode
+83;Jairzinho;Brasil;BRA;Cabelo em 1974;1966, 1970 e 1974;Atacante;jogadores/jairzinho_brasil;cabelo curto
+84;Marcelo Balboa;EUA;EUA;Cabelo em 1994;1990, 1994 e 1998;Defensor;jogadores/balboa_eua;cabelo comprido, bigode
+85;Rigobert Song;Camarões;CAM;Cabelo em 2010;1994, 1998, 2002 e 2010.;Defensor;jogadores/song_camaroes;cabelo comprido, bigode, barba
+86;Leonardo Cuellar;México;MEX;Cabelo em 1978;1978;Meia;jogadores/cuellar_mexico;cabelo comprido, bigode, barba
+87;Clint Mathis ;EUA;EUA;Cabelo em 2002;2002;Meia;jogadores/mathis_eua;cabelo curto, careca
+88;Djibril Cissé;França;FRA;Cabelo em 2010;2002 e 2010;Atacante;jogadores/cisse_franca;cabelo curto, careca, barba, bigode
+89;Cobi Jones ;EUA;EUA;Cabelo em 1994;1994, 1998 e 2002;Defensor;jogadores/cobi_eua;cabelo comprido
+90;Henrik Larsson;Suécia;SUE;Cabelo em 1994;1994, 2002 e 2006;Atacante;jogadores/larsson_suecia;cabelo comprido
+91;Abel Xavier;Portugal;POR;Cabelo em 2002;2002;Defensor;jogadores/abel_portugal;cabelo curto, barba, bigode
+92;Trifon Ivanov;Bulgária;BUL;Cabelo em 1994;1994 e 1998;Defensor;jogadores/ivanov_bulgaria;cabelo comprido, bigode, barba
+93;Fabio Coentrão;Portugal;POR;Cabelo em 2010;2010 e 2014;Defensor;jogadores/coentrao_portugal;cabelo curto
+94;Luiz Hernandez;México;MEX;Cabelo em 1998;1998 e 2002;Atacante;jogadores/hernandez_mexico;cabelo comprido
+95;Wayne Rooney;Inglaterra;ING;Cabelo em 2002;2006, 2010 e 2014;Atacante;jogadores/rooney_inglaterra;cabelo curto, careca
+96;Rivelino;Brasil;BRA;Cabelo em 1974;1970, 1974 e 1978;Meia;jogadores/rivelino_brasil;cabelo comprido, bigode
+97;Didi;Brasil;BRA;Cabelo em 1958;1958 e 1962;Meia;jogadores/didi_brasil;cabelo curto, bigode
+98;Paul Pogba;França;FRA;Cabelo em 2014;2014;Meia;jogadores/pogba_franca;cabelo curto
+99;Messi;Argentina;ARG;Cabelo em 2010;2006, 2010 e 2014;Atacante;jogadores/messi_argentina;cabelo comprido
+100;Raul Meirelles;Portugal;POR;Cabelo em 2014;2010 e 2014;Defensor;jogadores/meirelles_portugal;cabelo curto, careca, barba, bigode
+101;Bacary Sagna;França;FRA;Cabelo em 2014;2010 e 2014;Defensor;jogadores/sagna_franca;cabelo comprido
+102;Benoit Assou-Ekotto;Camarões;CAM;Cabelo em 2014;2010 e 2014;Defensor;jogadores/Ekotto_camaroes;cabelo comprido, bigode, barba
+103;Carlos Tévez;Argentna;ARG;Cabelo em 2010;2006 e 2010;Atacante;jogadores/tevez_argentina;cabelo comprido
+104;Christhian Ziege;Alemanha;ALE;Cabelo em 2002;1998 e 2002;Defensor;jogadores/ziege_alemanha;cabelo curto, careca
+105;Rivaldo;Brasil;BRA;Cabelo em 2002;1998 e 2002;Meia;jogadores/rivaldo_brasil;cabelo curto, careca
+106;Zé Roberto;Brasil;BRA;Cabelo em 2006;2006;Meia;jogadores/zeroberto_brasil;cabelo curto, barba
+107;Willian;Brasil;BRA;Cabelo em 2014;2014;Atacante;jogadores/willian_brasil;cabelo comprido
+108;Raheem Sterling;Inglaterra;ING;Cabelo em 2014;2014;Atacante;jogadores/sterling_inglaterra;cabelo curto
+109;Hidetoshi Nakata;Japão;JAP;Cabelo em 2002;2002, 2006 e 2010;Atacante;jogadores/nakata_japao;cabelo curto
+110;Sergio Agüero;Argentina;ARG;Cabelo em 2014;2014;Atacante;jogadores/aguero_argentina;cabelo curto
+111;Samuel Eto'o;Camarões;CAM;Cabelo em 2014;2014;Meia;jogadores/etoo_camaroes;cabelo curto
+113;Chris Waddle;Inglaterra;ING;Cabelo em 1990;1990;Meia;jogadores/waddle_inglaterra;cabelo comprido
+114;Kazuyuki Toda;Japão;JAP;Cabelo em 2002;2002;Defensor;jogadores/toda_japao;cabelo curto, careca
