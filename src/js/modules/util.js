@@ -1,4 +1,4 @@
-import pipe from './functional';
+import { pipe } from './functional';
 
 /**
  * @param  {String} s string de entrada
@@ -6,11 +6,17 @@ import pipe from './functional';
  */
 
 const removeAccents = (s) => {
-  const i = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖŐòóôõöőÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜŰùúûüűÑñŠšŸÿýŽž'.split('');
-  const o = 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUUuuuuuNnSsYyyZz'.split('');
-  const map = {};
-  i.forEach((el, idx) => { map[el] = o[idx]; });
-  return s.replace(/[^A-Za-z0-9]/g, ch => map[ch] || ch);
+  const i = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖŐòóôõöőÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜŰùúûüűÑñŠšŸÿýŽž';
+  const o = 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUUuuuuuNnSsYyyZz';
+  return (
+    s.split('').map((letter) => {
+      const index = i.indexOf(letter);
+      if (index !== -1) {
+        return o[index];
+      }
+      return letter;
+    }).join('')
+  );
 };
 
 
@@ -35,13 +41,13 @@ const convertToCamel = s => s.replace(/(\s\w)/g, m => m[1].toUpperCase());
  */
 
 const csvToJson = (arr) => {
-  const headerCell = arr.shift(); // or arr[0];
+  const headerCell = arr.shift();
   const headerCellKey = headerCell
     .map(item => pipe(removeAccents, toLowerCase, convertToCamel)(item));
   return (
     arr.reduce((prev, curr) => {
       const item = curr.reduce((previus, current, index) => {
-        previus[headerCellKey[index]] = current || null; // current.replace(/(^-$)/, '')
+        previus[headerCellKey[index]] = current || null;
         return previus;
       }, {});
       prev.push(item);
