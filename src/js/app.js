@@ -1,7 +1,7 @@
 import get from './modules/getcsv';
 import csvToJson from './modules/util';
 
-const fileURL = `${URL}A.csv?id=10`;
+const fileURL = `${URL}F.csv?id=10`;
 
 const detectSeparator = (csv) => {
   const separators = [',', ';', '|', '\t'];
@@ -23,11 +23,10 @@ const csvHandler = (data) => {
     arr.pop();
   }
   try {
-    console.log('arr', arr);
-    const newArr = arr.map(item => item.split(separator));
+    const reg = new RegExp(`${separator}(?!\\s)`);
+    const newArr = arr.map(item => item.split(reg));
     const response = csvToJson(newArr);
-    console.log('arr', newArr);
-    console.log('a', response);
+    console.log('response', response);
   } catch (e) {
     console.log('e', e);
   }
