@@ -40,7 +40,7 @@ const convertToCamel = s => s.replace(/(\s\w)/g, m => m[1].toUpperCase());
  * @return {Array} array de objetos
  */
 
-const csvToJson = (arr) => {
+const arrToJson = (arr) => {
   const headerCell = arr.shift();
   const headerCellKey = headerCell
     .map(item => pipe(removeAccents, toLowerCase, convertToCamel)(item));
@@ -56,4 +56,4 @@ const csvToJson = (arr) => {
   );
 };
 
-export default csvToJson;
+export default arrToJson;

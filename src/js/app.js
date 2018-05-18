@@ -1,6 +1,6 @@
 import get from './modules/getcsv';
-import csvToJson from './modules/util';
-// import { pipe, curry } from './modules/functional';
+import arrToJson from './modules/util';
+import { curry } from './modules/functional';
 
 const fileURL = `${URL}F.csv?id=10`;
 
@@ -17,24 +17,24 @@ const detectSeparator = (csv) => {
   return csv[index];
 };
 
-const csvHandler = (data, fn) => {
-  const separator = fn(data);
-  const arr = data.split(/\n/);
+const findNewLineSplit = (csv) => {
+  const arr = csv.split(/\n/);
   if (arr[arr.length - 1] === '') {
     arr.pop();
   }
-  try {
-    const reg = new RegExp(`${separator}(?!\\s)`);
-    return arr.map(item => item.split(reg));
-  } catch (err) {
-    console.log('e', err);
-    return err;
-  }
+  return arr;
+};
+
+const csvToArr = (csv, fnSeparator, fnSplitLine) => {
+  const separator = fnSeparator(csv);
+  const arrLines = fnSplitLine(csv);
+  const reg = new RegExp(`${separator}(?!\\s)`);
+  return arrLines.map(item => item.split(reg));
 };
 
 const init = (csv) => {
-  const response = csvHandler(csv, detectSeparator);
-  const json = csvToJson(response);
+  const arr = curry(csvToArr)(csv, detectSeparator, findNewLineSplit);
+  const json = arrToJson(arr);
   console.log('json', json);
 };
 
