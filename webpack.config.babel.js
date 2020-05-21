@@ -2,14 +2,8 @@ import path from 'path';
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-const env = process.env.NODE_ENV || 'development';
-const masterTemplate = {
-  development: './src/views/index.pug',
-};
-const localURL = 'http://localhost:8000/';
-
 const config = {
-  entry: './src/js/app.js',
+  entry: './example/index.js',
   output: {
     filename: 'bundle.js?[hash]',
     path: path.resolve(__dirname, 'public'),
@@ -20,38 +14,23 @@ const config = {
     rules: [
       {
         test: /\.js$/,
-        // exclude: [/node_modules/],
         use: [{
           loader: 'babel-loader',
         }],
-      },
-      {
-        test: /\.(pug)$/,
-        use: [
-          'html-loader',
-          {
-            loader: 'pug-html-loader',
-            options: {
-              data: {},
-              pretty: true,
-            },
-          },
-        ],
-      },
+      }
     ],
   },
 
-
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, `${masterTemplate[env]}`),
+      template: "./index.html",
       minify: {
         removeComments: true,
       },
       inject: true,
     }),
     new webpack.DefinePlugin({
-      URL: JSON.stringify(localURL),
+      URL: JSON.stringify("http://localhost:8000/"),
     }),
   ],
   devtool: 'source-map',
@@ -63,6 +42,4 @@ const config = {
   },
 };
 
-
 export default config;
-
