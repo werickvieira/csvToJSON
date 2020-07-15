@@ -17,8 +17,8 @@ const lowerCase = value => value.toLowerCase();
 
 const camelcase = s => s.replace(/(\s\w)/g, m => m[1].toUpperCase());
 
-export { 
-  normalize, 
-  lowerCase, 
-  camelcase 
+export {
+  normalize,
+  lowerCase,
+  camelcase,
 };

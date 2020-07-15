@@ -1,53 +1,22 @@
-import { pipe } from './functional';
-import { normalize, lowerCase,  camelcase } from './util';
+/**
+ * @param {string} str
+ */
 
-const detectSeparator = (csv) => {
-  const separators = [',', ';', '|', '\t'];
-  const index = separators
-    .map(item => csv.indexOf(item))
-    .reduce((prev, curr) => {
-      if (prev === -1 || (curr !== -1 && curr < prev)) {
-        return curr;
-      }
-      return prev;
-    });
-
-  return csv[index];
-};
-
-const splitLines = (csv) => {
-  const arr = csv.split(/\n/);
-  if (arr[arr.length - 1] === '') {
-    arr.pop();
+const csvToJSON = (str, service) => {
+  if (typeof (str) !== 'string') {
+    throw new Error("Function didn't receive a string file.");
   }
 
-  return arr;
-};
+  if (!service || Object.keys(service).length === 0) {
+    throw new Error('Function missing dependency.');
+  }
 
-const parseToObject = (arr) => {
-  const headerCell = arr.shift();
-  const headerCellKey = headerCell
-    .map(item => pipe(normalize, lowerCase, camelcase)(item));
-
-  return (
-    arr.reduce((prev, curr) => {
-      const item = curr.reduce((previus, current, index) => {
-        previus[headerCellKey[index]] = current || null;
-        return previus;
-      }, {});
-      prev.push(item);
-      return prev;
-    }, [])
-  );
-};
-
-const csvToJSON = (csv) => {
-  const separator = detectSeparator(csv);
-  const csvLines = splitLines(csv);
+  const separator = service.detectSeparator(str);
+  const csvLines = service.splitLines(str);
   const reg = new RegExp(`${separator}(?!\\s)`);
   const lines = csvLines.map(item => item.split(reg));
 
-  return parseToObject(lines);
+  return service.parseToObject(lines);
 };
 
 export default csvToJSON;
