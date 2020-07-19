@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "14"
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+  - node_modules
+
+script: echo "Running tests against $(node -v)..."
+
+jobs:
+  include:
+    - stage: Produce Coverage
+      before_script:
+      - npm install
+      script: 
+        - make test 
+        - make coverage
+      after_script:
+      - rm -rf ./coverage
+

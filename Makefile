@@ -13,7 +13,10 @@ init:
 test:
 	npm test
 
+coverage: 
+	npm run coverage
+
 build:
 	npm run build
 
-.PHONY: start install init test build 
+.PHONY: start install init test build coverage
