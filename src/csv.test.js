@@ -2,28 +2,9 @@ import csvToJSON from './csv';
 import mockData from './__mocks__/data';
 import service from '../src/service';
 
-jest.mock('../src/service', () => (
-  {
-    detectSeparator: jest.fn(() => ';'),
-    splitLines: jest.fn(() => [
-      'ID,JOGADOR,SELECAO,ABREVIATURA SELECAO,COPA DO PENTEADO,COPAS QUE JOGOU,POSIÇÃO,IMAGEM,CARACTERISTICA',
-      '1,Carlos Valderrama,Colômbia,COL,Cabelo em 1994,1990, 1994 e 1998,Meia,jogadores/valderrama_colombia,cabelo comprido, bigode',
-    ]),
-    parseToObject: jest.fn(() => ({
-      id: 1,
-      jogador: 'Carlos Valderrama',
-      selecao: 'Colômbia',
-      abreviacaoSeleca: 'COL',
-      copaDoPenteado: 'Cabelo em 1994,1990, 1994 e 1998',
-      copasQueJogou: '1994, 1990, 1994 e 1998',
-      posicao: 'Meia',
-      imagem: 'jogadores/valderrama_colombia',
-      caracteristica: 'cabelo comprido, bigode',
-    })),
-  }
-));
+jest.mock('../src/service');
 
-afterEach(() => {
+beforeEach(() => {
   service.detectSeparator.mockClear();
   service.splitLines.mockClear();
   service.parseToObject.mockClear();
