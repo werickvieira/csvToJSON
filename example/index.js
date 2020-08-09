@@ -16,10 +16,10 @@ const initApp = () => {
   get(fileURL).then((str) => {
     try {
       const dependency = service();
-      csvToJSON(str, dependency);
-      // console.log('json', json);
+      const values = csvToJSON(str, dependency);
+      console.log('values: ', values);
     } catch (e) {
-      // console.log('error is: ', e);
+      console.log('error is: ', e);
     }
   });
 };
